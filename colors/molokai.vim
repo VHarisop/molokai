@@ -149,8 +149,8 @@ if &t_Co > 255
    hi Boolean         ctermfg=135
    hi Character       ctermfg=144
    hi Number          ctermfg=135
-   " string: ctermfg=144 originally
-   hi String          ctermfg=39
+   " string: ctermfg=144 originally, and then 39
+   hi String          ctermfg=163
    hi Conditional     ctermfg=161               cterm=bold
    hi Constant        ctermfg=135               cterm=bold
    hi Cursor          ctermfg=16  ctermbg=253
